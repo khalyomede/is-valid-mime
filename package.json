@@ -1,0 +1,46 @@
+{
+	"name": "is-valid-mime",
+	"version": "0.1.0",
+	"description": "Returns true if the string corresponds to a valid MIME type.",
+	"main": "lib/index.js",
+	"repository": "https://github.com/khalyomede/is-valid-mime",
+	"author": "Khalyomede <khalyomede@gmail.com>",
+	"license": "MIT",
+	"private": false,
+	"keywords": [
+		"mime",
+		"type",
+		"valid"
+	],
+	"devDependencies": {
+		"@rollup/plugin-typescript": "4.*",
+		"@types/chai": "4.*",
+		"@types/mime-db": "1.*",
+		"@types/mocha": "7.*",
+		"chai": "4.*",
+		"codecov": "3.*",
+		"mocha": "7.*",
+		"np": "6.*",
+		"npm-check-updates": "4.*",
+		"nyc": "15.*",
+		"rollup": "2.*",
+		"rollup-plugin-tslint": "0.2.*",
+		"stryker-cli": "1.*",
+		"ts-node": "8.*",
+		"tslib": "1.*",
+		"tslint": "6.*",
+		"typescript": "3.*"
+	},
+	"dependencies": {
+		"mime-db": "1.*"
+	},
+	"scripts": {
+		"build": "ncu && rollup -c",
+		"test": "nyc mocha --require ts-node/register test/is-valid-mime.ts",
+		"coverage": "codecov"
+	},
+	"files": [
+		"lib/index.js",
+		"lib/index.d.ts"
+	]
+}
