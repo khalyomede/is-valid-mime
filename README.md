@@ -2,7 +2,7 @@
 
 Returns true if the string corresponds to a valid MIME type.
 
-[![Build Status](https://travis-ci.com/khalyomede/is-valid-mime.svg?branch=master)](https://travis-ci.com/khalyomede/is-valid-mime) [![codecov](https://codecov.io/gh/khalyomede/is-valid-mime/branch/master/graph/badge.svg)](https://codecov.io/gh/khalyomede/is-valid-mime) [![Maintainability](https://api.codeclimate.com/v1/badges/e2c8f777723374c82350/maintainability)](https://codeclimate.com/github/khalyomede/is-valid-mime/maintainability)
+![npm](https://img.shields.io/npm/v/is-valid-mime) ![NPM](https://img.shields.io/npm/l/is-valid-mime) [![Build Status](https://travis-ci.com/khalyomede/is-valid-mime.svg?branch=master)](https://travis-ci.com/khalyomede/is-valid-mime) [![codecov](https://codecov.io/gh/khalyomede/is-valid-mime/branch/master/graph/badge.svg)](https://codecov.io/gh/khalyomede/is-valid-mime) [![Maintainability](https://api.codeclimate.com/v1/badges/e2c8f777723374c82350/maintainability)](https://codeclimate.com/github/khalyomede/is-valid-mime/maintainability) ![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/is-valid-mime) ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/is-valid-mime)
 
 ## Summary
 
