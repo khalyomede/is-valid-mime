@@ -37,7 +37,8 @@
 	"scripts": {
 		"build": "ncu && rollup -c",
 		"test": "nyc mocha --require ts-node/register test/is-valid-mime.ts",
-		"coverage": "codecov"
+		"coverage": "codecov",
+		"release": "np"
 	},
 	"files": [
 		"lib/index.js",
