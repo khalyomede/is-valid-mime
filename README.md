@@ -2,6 +2,8 @@
 
 Returns true if the string corresponds to a valid MIME type.
 
+[![Build Status](https://travis-ci.com/khalyomede/is-valid-mime.svg?branch=master)](https://travis-ci.com/khalyomede/is-valid-mime) [![codecov](https://codecov.io/gh/khalyomede/is-valid-mime/branch/master/graph/badge.svg)](https://codecov.io/gh/khalyomede/is-valid-mime) [![Maintainability](https://api.codeclimate.com/v1/badges/e2c8f777723374c82350/maintainability)](https://codeclimate.com/github/khalyomede/is-valid-mime/maintainability)
+
 ## Summary
 
 - [About](#about)
